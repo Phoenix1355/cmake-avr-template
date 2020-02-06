@@ -5,7 +5,10 @@
             "includePath": [
                 "${workspaceFolder}",
                 "${workspaceFolder}/include",
-                "/usr/local/Cellar/avr-gcc/9.2.0_1/lib/avr-gcc/9/gcc/avr/9.2.0/include"
+                "/usr/local/Cellar/avr-gcc/9.2.0_1/avr/include"
+            ],
+            "defines": [
+                "__AVR_ATmega2560__"
             ],
             "macFrameworkPath": [
                 "/System/Library/Frameworks",
