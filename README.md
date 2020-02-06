@@ -23,3 +23,17 @@ If you're linux and you don't know how to install the required dependecies, you 
 ### Windows
 
 GL HF
+
+### Usage
+
+Build:
+
+```bash
+cmake --build ./build
+```
+
+Upload:
+
+```bash
+make -C build/ upload_ams
+```
