@@ -1,0 +1,16 @@
+---
+BasedOnStyle: WebKit
+IndentWidth: 4
+ColumnLimit: 80
+---
+Language: Cpp
+# Force pointers to the type for C++
+DerivePointerAlignment: false
+PointerAlignment: Left
+# Custom settings
+AccessModifierOffset: -4
+BreakBeforeBraces: Linux
+BreakBeforeTernaryOperators: true
+IndentCaseLabels: false
+NamespaceIndentation: All
+AlwaysBreakTemplateDeclarations: true
